@@ -1,0 +1,43 @@
+{
+  "name": "adminpanel",
+  "version": "1.0.0",
+  "description": "Admin panel for school calendar + revenue\r <h2>Why am I doing this project?</h2><br>\r <p>I've been having a hard time finding an app that can satisfy both my needs of having a customizable school calendar and hourly payments. So, I decided to create this project to help students from the same institution as me (IEFP) and who knows, others can enjoy it as well.</p>",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshinodev/adminPanel.git"
+  },
+  "keywords": [
+    "admin",
+    "panel",
+    "theme"
+  ],
+  "author": "Anaïs Gilbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshinodev/adminPanel/issues"
+  },
+  "homepage": "https://github.com/yoshinodev/adminPanel#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "css-loader": "^6.7.1",
+    "fibers": "^5.0.3",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.3",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
+  }
+}
