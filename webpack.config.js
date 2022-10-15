@@ -9,7 +9,7 @@ module.exports={
         publicPath: "demo",
         writeToDisk:true //to correctly upload the saas files
     },
-    entry: '.src/js/app.js',
+    entry: './src/js/app.js',
     output:{
         filename: app.js,
         path: path.resolve(__dirname,'demo/js'),
